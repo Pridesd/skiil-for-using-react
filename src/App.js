@@ -1,14 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
-import { Fragment } from "react";
-import { Component } from "react";
 
 import React from "react";
-import MyComponent from "./MyComponent";
-import Counter from "./Counter";
+import EventPractice from "./EventPractice_function";
 
 const App = () => {
-  return <Counter />;
+  return <EventPractice />;
 };
 
 export default App;
